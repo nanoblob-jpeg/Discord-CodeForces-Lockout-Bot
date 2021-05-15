@@ -18,9 +18,9 @@ FIREBASEPASS = os.getenv('FIREBASEPASS')
 
 config = {
 	'apiKey':APIKEY,
-	'authDomain':"lockoutbot-ca541.firebaseapp.com",
-	'databaseURL':"https://lockoutbot-ca541-default-rtdb.firebaseio.com",
-	'storageBucket':"lockoutbot-ca541.appspot.com",
+	'authDomain':"WEBSITE",
+	'databaseURL':"WEBSITE",
+	'storageBucket':"WEBSITE",
 	'serviceAccount': PATHTOSERVICEACCOUNT
 }
 firebase = pyrebase.initialize_app(config)
